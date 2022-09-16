@@ -1,7 +1,7 @@
 //Buy Bitcoin
 const btc = prompt("What is Bitcoin price today?");
 let message = true;
-while (message === true) {
+while (message) {
   message = confirm("Do you want to buy bitcoin?");
   if (message !== true) {
     break;
