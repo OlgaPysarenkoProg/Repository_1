@@ -1,13 +1,8 @@
 //Buy Bitcoin
 const btc = prompt("What is Bitcoin price today?");
 let message = true;
-while (message) {
-  message = confirm("Do you want to buy bitcoin?");
-  if (!message) {
-    break;
-  } else {
-    const dollar = prompt("How much $ do you have?");
-    const result = dollar / btc;
-    console.log(`You can buy ${result} BTC!`);
-  }
+while (confirm("Do you want to buy bitcoin?")) {
+  const dollar = prompt("How much $ do you have?");
+  const result = dollar / btc;
+  console.log(`You can buy ${result} BTC!`);
 }
