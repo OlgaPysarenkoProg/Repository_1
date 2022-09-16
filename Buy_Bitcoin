@@ -7,7 +7,7 @@ while (message === true) {
     break;
   } else {
       const dollar = prompt("How much $ do you have?");
-      const result = dollar/btc;
+      const result = dollar / btc;
       console.log(`You can buy ${result} BTC!`);
     }
 }
