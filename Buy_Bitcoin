@@ -1,6 +1,5 @@
 //Buy Bitcoin
 const btc = prompt("What is Bitcoin price today?");
-let message = true;
 while (confirm("Do you want to buy bitcoin?")) {
   const dollar = prompt("How much $ do you have?");
   const result = dollar / btc;
